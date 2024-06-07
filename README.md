@@ -127,7 +127,7 @@
 
 ### 1. Get all cars whose model is 'Any' and 'Any'
 
-- **Route:** GET /query
+- **Route:** GET /available/model/:model
 - **Description:** Retrieves details of all cars with models 'Any' and 'Any'.
 - **Query Parameters:** 
   - model: String (required, comma-separated list of models)
